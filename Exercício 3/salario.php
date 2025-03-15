@@ -15,7 +15,7 @@
         $salf = $sala + ( $filhos * 90);
         
         else  {
-        $salf = $sala
+        $salf = $sala;
         }
         echo "O salário final é de $salf";
 ?>
