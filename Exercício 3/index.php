@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+<form method = "post" action="calcular.php">
+
+<h2>Insira o primeiro número</h2>
+<input type = "text" name="num1" size="25" /> <br></br>
+
+<h2>Insira o segundo número</h2>
+<input type = "text" name="num2" size="25" /> <br></br>
+
+<input type="submit">
+</body>
+</html>
