@@ -13,7 +13,7 @@
 // Declaração das variáveis
     $peso = $_POST ['peso'];
     $alt = $_POST ['alt'];
-    $imc = $peso / ($alt * $alt / 100);
+    $imc = $peso / ($alt * $alt / 10000);
     
 // Declaração do if
     if ($imc < 16){ 
