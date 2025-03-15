@@ -1,2 +1,3 @@
 # PW-2
-# A
+# Exercícios do pedro em:
+# https://github.com/pedroAmalfi/phpCondicao.git
