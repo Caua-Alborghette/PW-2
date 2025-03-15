@@ -13,7 +13,7 @@
     <h2>Insira a o peso:</h2>
     <input type = "text, font famiy: comic sans"  name="peso" size="25" /> <br></br>
 
-    <h2>Insira a altura</h2>
+    <h2>Insira a altura (em centímetros:)</h2>
     <input type = "text" name="alt" size="25" /> <br></br>
 
     <input type="submit">
