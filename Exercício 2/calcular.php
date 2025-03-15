@@ -12,7 +12,7 @@
     }
 
     else{
-        echo "$num2 é igual $num1"; 
+        echo "O aluno foi reprovado com a nota de $media"; 
         }
 
 ?>
