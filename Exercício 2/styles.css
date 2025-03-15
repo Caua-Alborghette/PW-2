@@ -1,46 +1,24 @@
 body{
     background-color: darkslategray;
 }
-.wrapper{
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #262626;
-    padding: 50px;
-    color: #fff;
-    text-align: center;
-
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: Comic Sans MS;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-    
 
 h1{
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 20px;
     font-family: Comic Sans MS;
-    letter-spacing: 2px;
     font-weight: bold;
 }
 
 
 h2{
-    text-transform: uppercase;
+    font-size: 16px;
     font-family: Comic Sans MS;
     margin-bottom: 10%;
 }
 input[type = "text"]{
-    height: 40px;
+    font-family: Comic Sans MS;
 }
-input[type = "text"]{
-    font-size: 24px;
-}
-button {
+
+sub {
     background-color: cadetblue;
     border: none;
     color: #fff;
