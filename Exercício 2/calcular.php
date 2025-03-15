@@ -9,8 +9,9 @@
 // Declaração do if
     if ($media > 5)
     { echo "O aluno está aprovado com média igual a $media"; }
-    else
-    {echo "O aluno está reprovado com média igual a $média"; }
+    else{
+    echo "O aluno está reprovado com média igual a $média"; 
+    }
 
 
 ?>
