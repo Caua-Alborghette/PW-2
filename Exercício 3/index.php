@@ -6,7 +6,7 @@
     <title>Exercício 3</title>
 </head>
 <body>
-<form method = "post" action="calcular.php">
+<form method = "post" action="salario.php">
 
 <h2>Insira o primeiro número</h2>
 <input type = "text" name="num1" size="25" /> <br></br>
