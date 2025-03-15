@@ -8,7 +8,7 @@
 <body>
 <h1>Calculadora:</h1>
 
-<form method = "post" action="calcular.php">
+<form method = "post" action="maior.php">
 
     <h2>Insira o primeiro número</h2>
     <input type = "text" name="num1" size="25" /> <br></br>
