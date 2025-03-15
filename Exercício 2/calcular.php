@@ -7,11 +7,12 @@
     $media = ($num1 + $num2 + $num3  + $num4)/4;
     
 // Declaração do if
-    if ($media > 5)
-    { echo "O aluno está aprovado com média igual a $media"; }
-    else{
-    echo "O aluno está reprovado com média igual a $média"; 
+    if ($media > 5){ 
+        echo "O aluno está aprovado com média igual a $media"; 
     }
 
+    else{
+        echo "$num2 é igual $num1"; 
+        }
 
 ?>
