@@ -8,7 +8,7 @@
 <body>
 <h1>Cálculo de média da nota:</h1>
 
-<form method = "post" action="calcular.php">
+<form method = "post" action="imc.php">
 
     <h2>Insira a o peso:</h2>
     <input type = "text, font famiy: comic sans"  name="peso" size="25" /> <br></br>
