@@ -1,25 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Exercício 1</title>
-        <link href="styles.css" rel="stylesheet" >
-</head>
-<body>
+
 <?php
 /*** set the content type header ***/
 /*** Without this header, it wont work ***/
 header("Content-type: text/css");
 
-
-$font_family = 'Arial, Helvetica, sans-serif';
-$font_size = '0.7em';
+$font_family = 'comic sans';
+$font_size = '18 px';
 $border = '1px solid';
+
 ?>
-        
-</body>
-</html>
+
 <?php
         $num1 = $_POST ['num1'];
         $num2 = $_POST ['num2'];
