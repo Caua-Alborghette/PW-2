@@ -7,10 +7,6 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-    
-</body>
-</html>
-
 <?php
 // Declaração das variáveis
     $num1 = $_POST ['num1'];
@@ -21,10 +17,13 @@
     
 // Declaração do if
     if ($media > 5){ 
-        echo "O aluno está aprovado com média igual a $media"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O aluno está aprovado com média igual a $media</p>";
     }
 
     else{
-        echo "O aluno foi reprovado com a nota de $media"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O aluno foi reprovado com a nota de $media</p>";
         }
 ?>
+</body>
+</html>
+

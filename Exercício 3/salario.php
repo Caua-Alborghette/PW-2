@@ -7,9 +7,7 @@
         <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-        
-</body>
-</html>
+
 <?php
         $sal = $_POST ['num1'];
         $filhos = $_POST ['num2'];
@@ -29,5 +27,9 @@
         else  {
         $salf = $sala;
         }
-        echo "O salário final é de $salf";
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>O salário final é de $salf</p>";
+
 ?>
+        
+</body>
+</html>

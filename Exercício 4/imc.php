@@ -7,8 +7,6 @@
     <link href="styles.css" rel="stylesheet" >
 </head>
 <body>
-</body>
-</html>
 
 <?php
 // Declaração das variáveis
@@ -18,34 +16,36 @@
     
 // Declaração do if
     if ($imc < 16){ 
-        echo "Seu IMC é $imc, você está com  magreza grave"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com  magreza grave</p>";
     }
 
     else if ($imc < 16.9){
-        echo "Seu IMC é $imc, você está com magreza moderada"; 
-        }
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com magreza moderada</p>";        }
 
     else if ($imc < 18.5){
-        echo "Seu IMC é $imc, você está com magreza leve"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com magreza leve</p>"; 
     }
 
     else if ($imc < 24.9){
-        echo "Seu IMC é $imc, você está com um peso normal"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com um peso normal</p>";
     }
 
     else if ($imc < 29.9){
-        echo "Seu IMC é $imc, você está com sobrepeso"; 
-    }
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com sobrepeso</p>";    }
 
     else if ($imc < 34.9){
-        echo "Seu IMC é $imc, você está com obesidade grau I"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com obesidade grau I</p>";
     }
 
     else if ($imc < 39.9){
-        echo "Seu IMC é $imc, você está com obesidade grau II"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com obesidade grau II</p>";
     }
 
     else {
-        echo "Seu IMC é $imc, você está com obesidade grau III ou mórbida"; 
+        echo "<p style='color: aliceblue; font-family: Comic Sans MS; font-size: 20px;'>Seu IMC é $imc, você está com obesidade grau III ou mórbida</p>";
     }
 ?>
+
+</body>
+</html>
+

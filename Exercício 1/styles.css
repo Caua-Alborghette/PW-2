@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(58, 104, 104);
+    background-color: #3a6868
 }
 
 h1{
@@ -19,6 +19,7 @@ input[type = "text"]{
     font-family: Comic Sans MS;
     font-weight: bold;
 }
+
 
 
 
