@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <link href="styles.css" rel="stylesheet" >
+</head>
+<body>
+    
+</body>
+</html>
+
 <?php
 // Declaração das variáveis
     $num1 = $_POST ['num1'];
